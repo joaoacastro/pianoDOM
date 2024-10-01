@@ -1,30 +1,28 @@
 # Piano
-### Projeto de manipulação com DOM
 
-<div style="text-align:center">
+<div align="center">
     <img style="border: solid 1px white" src="src/piano.jpg" height="100">
 </div>
 
-<div style="text-align:justify">
-Este é um projeto <em>em desenvolvimento</em> que explora a manipulação do DOM (Document Object Model) para criar uma simulação interativa de um piano. O objetivo é proporcionar uma experiência musical envolvente, permitindo que os usuários toquem diferentes notas ao interagir com as teclas do piano na interface.
+<div align="justify">
+
+This is a <em>work in progress</em> project that explores DOM (Document Object Model) manipulation to create an interactive piano simulation. The goal is to provide an engaging musical experience, allowing users to play different notes by interacting with the piano keys on the interface.
 <br>
 <br>
-Funcionalidades
-Interatividade: Cada tecla do piano pode ser clicada para tocar a nota correspondente.
-
-Feedback visual: As teclas pressionadas mudam de cor, proporcionando um feedback visual instantâneo.
-
-Compatibilidade com teclado: O projeto permite que os usuários toquem as notas usando as teclas do teclado do computador.
+## Features:
+- <strong>Interactivity:</strong> Each piano key can be clicked to play the corresponding note.
+- <strong>Visual feedback:</strong> Pressed keys change color, providing instant visual feedback.
+- <strong>Keyboard compatibility:</strong> The project allows users to play notes using their computer keyboard keys.
 </div>
 
-## Tecnologias Utilizadas
-- HTML
-- CSS
-- JavaScript
+## Technologies Used
+- HTML;
+- CSS;
+- JavaScript;
 
-## Como Executar o Projeto
-Clone este repositório para sua máquina local.<br> Abra o arquivo index.html em seu navegador. <br> 
-Interaja com o piano e divirta-se!<br>
+## How to Run the Project
+Clone this repository to your local machine.<br> Open the index.html file in your browser. <br> 
+Interact with the piano and have fun!<br>
 
-## Contribuições
-Contribuições são bem-vindas! Sinta-se à vontade para abrir issues ou pull requests.
+## Contributions
+Contributions are welcome! Feel free to open issues or pull requests.

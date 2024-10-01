@@ -16,8 +16,12 @@ function playNote(event) {
     );
     return;
   }
-
+  addPlayingClass(key);
   playAudio(audioKeyCode);
+}
+
+function addPlayingClass(key){
+    key.classList.add('playing');
 }
 
 //function to get key code
@@ -39,9 +43,14 @@ function playAudio(audioKeyCode) {
   audio.play();
 }
 
+function removePlayingClass(event){
+    event.target.classList.remove("playing");
+}
+
 //with mouse
 keys.forEach(function (key) {
-  key.addEventListener("click", playNote);
+    key.addEventListener("click", playNote);
+    key.addEventListener("transitionend", removePlayingClass);
 });
 
 //with keyboard

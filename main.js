@@ -1,10 +1,13 @@
 const keys = document.querySelectorAll(".key");
 
+//play notes
 function playNote(event) {
   let audioKeyCode = getKeyCode(event);
 
+  // types or pressed key
   const key = document.querySelector(`.key[data-key="${audioKeyCode}"]`);
 
+  // if key exists
   const isKeyExists = key;
 
   if (!isKeyExists) {
@@ -14,10 +17,7 @@ function playNote(event) {
     return;
   }
 
-  const audio = document.querySelector(`audio[data-key="${audioKeyCode}"]`);
-  audio.currentTime = 0;
-  audio.play();
-
+  playAudio(audioKeyCode);
 }
 
 //function to get key code
@@ -32,6 +32,13 @@ function getKeyCode(event) {
   }
   return keyCode;
 }
+
+function playAudio(audioKeyCode) {
+  const audio = document.querySelector(`audio[data-key="${audioKeyCode}"]`);
+  audio.currentTime = 0;
+  audio.play();
+}
+
 //with mouse
 keys.forEach(function (key) {
   key.addEventListener("click", playNote);

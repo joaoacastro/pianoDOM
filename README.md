@@ -1,6 +1,10 @@
 # Piano
 ### Projeto de manipulação com DOM
 
+<div style="margin: 0 auto; width: fit-content;">
+    <img style="border: solid 1px white" src="src/piano.jpg" height="100">
+</div>
+
 Este é um projeto <em>em desenvolvimento</em> que explora a manipulação do DOM (Document Object Model) para criar uma simulação interativa de um piano. O objetivo é proporcionar uma experiência musical envolvente, permitindo que os usuários toquem diferentes notas ao interagir com as teclas do piano na interface.
 
 Funcionalidades

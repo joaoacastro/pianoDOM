@@ -1,7 +1,7 @@
 # Piano
 
 <div align="center">
-    <img style="border: solid 1px white" src="src/piano.jpg" height="100">
+    <img style="border: solid 1px white" src="favicon.ico" height="100">
 </div>
 
 <div align="justify">
